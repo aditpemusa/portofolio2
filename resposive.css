@@ -1,0 +1,93 @@
+@media (max-width:1000px){
+  
+    header{
+        width: 100%;
+    }
+    .header-right{
+        padding-right: 100px;
+        font-size: 15px;
+    }
+    .header-right a{
+        margin-left:20px;
+    }
+    
+    #top-wrapper h2{
+        font-size: 25px ;
+        padding-left: 410px;
+    }
+    #top-wrapper h1{
+        font-size: 45px;
+        padding-right: 120px;
+    }
+
+    #about {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .btn-wrapper {
+        padding-left:570px;
+      }
+
+      .btn:hover {
+        opacity: 1;
+        background-color: rebeccapurple;
+        transition: all 0.5s;
+      }
+      .container-card {
+       
+        margin-left: 300px;
+        margin-bottom:10px;
+        
+        
+    }
+      
+}
+
+
+@media(max-width:768px){
+    header{
+        width: 100%;
+    }
+    .header-right{
+        padding-right: 100px;
+        font-size: 15px;
+    }
+    .header-right a{
+        margin-left:20px;
+    }
+    
+    #top-wrapper h2{
+        font-size: 25px ;
+        padding-left: 410px;
+    }
+    #top-wrapper h1{
+        font-size: 45px;
+        padding-right: 120px;
+    }
+
+    #about {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .btn-wrapper {
+        padding-left:570px;
+      }
+
+      .btn:hover {
+        opacity: 1;
+        background-color: rebeccapurple;
+        transition: all 0.5s;
+      }
+      .container-card {
+       
+        margin-left: 170px;
+        margin-bottom:10px;
+        
+        
+    }
+
+@media(max-width:360px){
+
+}

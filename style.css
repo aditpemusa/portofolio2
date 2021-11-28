@@ -1,0 +1,253 @@
+header {
+  overflow: hidden;
+  background-color:rgba(250, 250, 250, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  height:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.header-right {
+  padding: 10px 20px 5px 20px;
+  float: right;
+}
+
+.header-right a{
+  float: left;
+  color: rebeccapurple;
+  padding: 5px 20px 5px 10px ;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.header-right a:hover {
+  border-bottom: 5px solid #239b76;
+  color:#239b76;
+  transition: all 0.5s;
+}
+
+.header-left{
+  float: left;
+  padding: 10px 20px 5px 20px;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  margin: 0px 5px ;
+}
+
+
+body {
+  margin: 0;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(./banner4.png);
+  background-size: cover;
+  color: rebeccapurple;  
+  
+}
+
+.top-wrapper a{
+  text-decoration: none;
+}
+
+.top-wrapper h2,h1{
+    color:white;
+    padding-left:60px;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 62px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: auto;
+}
+
+.btn {
+  padding: 18px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  margin: 50px 0 20px 0;
+  border-radius: 12px;
+  background-color: #239b76;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
+  transition: all 0.5s;
+}
+
+/* about */
+
+.about-wrapper {
+  padding: 100px 0 100px 0;
+  border-top: 3px solid #f3f3f3;
+  text-align: center;
+  background-color:#f7f7f7;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.right {
+  text-align: right;
+  padding-left: 50px;
+}
+
+.left {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.heading h2 {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column p {
+  width: 90%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/* end of about */
+
+
+
+/* footer */
+footer{
+text-align: center;
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: gray;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+/* end of footer */
+
+
+
+/* contact */
+
+.contact-wrapper {
+  overflow: hidden;
+  background: linear-gradient(to bottom left, #58508d 0%, #bc5090 100%);
+  float: center;
+  width: 100%; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container-card {
+    width: 450px;
+    height: 400px;
+    background-color: #423d3d;
+    text-align: center;
+    padding-top:5px;
+    margin-left: 500px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    
+}
+.contact-headings h2 {
+  color: white;
+}
+
+
+tr {
+  text-align: left;
+  color: white;
+  border-radius: 12px;
+}
+
+td {
+  padding: 5px;
+}
+
+input[type=text], select {
+  padding: 15px 55px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea[type=text] {
+  padding: 15px 40px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.fa-user {
+    margin-left: 10px;
+}
+.fa-email {
+    margin-left: 5px;
+}
+
+
+input[type=submit] {
+  width: 350%;
+  background-color:  #bc5090;
+  color: white; 
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 8px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
